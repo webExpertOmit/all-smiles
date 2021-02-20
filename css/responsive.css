@@ -1,0 +1,288 @@
+ /*=====================================================================
+  Use a media query to add a breakpoint at min 1023px and max 1515px
+======================================================================*/
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 961px and max 1024px
+======================================================================*/
+
+
+
+
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 768px and max 991px
+======================================================================*/
+@media screen and (min-device-width: 768px) and (max-device-width: 991px){
+    
+    
+    body{
+        font-size: 13px;
+    }
+    .section-title h1{
+        font-size: 32px;
+    }
+    
+    .top-menu-section{
+        display: none;
+    }
+    .slider-content h1{
+        font-size: 32px;
+    }
+    .slider-content .dental-practice{
+        padding: 10px 15px;
+    }
+    .our-btn{
+        padding: 10px 20px;
+    }
+    .slider-btn{
+        padding: 10px 20px;
+    }
+    .working-list{
+        padding: 0;
+        box-shadow: none;
+    }
+    .working-list p{
+        font-size: 12px;
+    }
+    .working-time h2{
+        font-size: 24px;
+    }
+     .working-time p{
+        font-size: 12px;
+    }
+    .working-time h4{
+        font-size: 20px;
+        padding: 5px 0px;
+    }
+    .plan-area h1{
+        font-size: 32px;
+    }
+    .our-tab-content-area h2{
+        font-size: 24px;
+    }
+    .appointment-form h2{
+        margin-top: 25px;
+    }
+    .news-content span{
+        font-size: 10px;
+    }
+     .news-content h4{
+        font-size: 18px;
+    }
+    .footer-content a i{
+        font-size: 12px;
+    }
+    
+    
+/*==========About Us Page========*/
+    
+    .about-workking-content{
+        margin-top: 50px;
+    }
+    .about-work-content{
+        margin-top: 50px;
+    } 
+    .testimonial-content h1{
+        font-size: 32px;
+    }
+    
+    
+    
+/*==========Services Us Page========*/
+    
+    .services-content{
+        margin: 0;
+    }
+    
+    
+    
+/*==========Services Us Page========*/
+    .pricing-content{
+        padding: 20px;
+    }
+    
+    
+}
+
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 576px and max 767px
+======================================================================*/
+@media screen and (min-device-width: 576px) and (max-device-width: 767px){
+    body{
+        font-size: 12px;
+    }
+    .section-title h1{
+        font-size:30px; 
+    }
+    .top-menu-section{
+        display: none;
+    }
+    .slider-content{
+        display: none;
+    }
+    .working-list p{
+        font-size: 14px;
+    }
+    .working-time h2{
+        font-size: 22px;
+    }
+    .working-time p{
+        font-size: 14px;
+    }
+    .working-time h4{
+        font-size: 18px;
+    }
+    .working-info h5{
+        margin-top: 35px;
+    }
+    .plan-area h1{
+        font-size: 28px;
+    }
+    .appointment-form h2{
+        margin-top: 25px;
+    }
+    .footer-content{
+        margin-top: 50px;
+    }
+    .main-footer-area{
+        padding: 30px 0px;
+    }
+    
+    
+    /*==========About Us Page========*/
+    
+    .about-workking-content{
+        margin-top: 50px;
+    }
+    .about-work-content{
+        margin-top: 50px;
+    } 
+    .testimonial-content h1{
+        font-size: 28px;
+    }
+    
+    
+    /*===========Login page===========*/
+    
+     .login-area{
+        width: 300px;
+    }
+
+    
+    
+    
+}
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 300px and max 575px
+======================================================================*/
+@media screen and (min-device-width: 300px) and (max-device-width: 575px){
+     body{
+        font-size: 12px;
+    }
+    .section-title h1{
+        font-size:30px; 
+    }
+    .top-menu-section{
+        display: none;
+    }
+    .slider-content{
+        display: none;
+    }
+    .main-menu-area ul{
+        margin-left:0px; 
+    }
+    .working-list p{
+        font-size: 10px;
+    }
+    .working-time h2{
+        font-size: 18px;
+    }
+    .working-time p{
+        font-size: 10px;
+    }
+    .working-time h4{
+        font-size: 12px;
+    }
+    .working-info h5{
+        margin-top: 0px;
+    }
+    .plan-area h1{
+        font-size: 22px;
+    }
+    .our-tab-content-area h2{
+        font-size: 18px;
+    }
+    .appointment-form h2{
+        font-size: 22px;
+        margin-top: 25px;
+    }
+    .ml{
+        margin-left: 0;
+    }
+    .appointment-form input{
+        width: 100%;
+    }
+    .appointment-form .our-btn{
+        width: 100%;
+    }
+    .footer-content{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .footer-content .nav{
+        justify-content: center;
+    }
+    .footer-content .row{
+        width:180px; 
+        margin: auto;
+    }
+    ul.our-nav-item li a{
+        padding: 20px 5px;
+    }
+    .top{
+        right: 0;
+    }
+    
+    
+    /*==========About Us Page========*/
+    
+    .about-work-content{
+        margin-top: 50px;
+    } 
+    .testimonial-content h1{
+        font-size: 28px;
+    }
+    .banner-area h1{
+        font-size: 32px;
+    }
+    
+    
+    
+    /*===========Login page===========*/
+    
+     .login-area{
+        width: 300px;
+    }
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

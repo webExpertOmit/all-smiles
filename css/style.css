@@ -1,0 +1,1203 @@
+
+/*
+===============================
+===============================
+Home Page CSS Start Here
+===============================
+===============================
+*/
+
+
+/*
+===============================
+Common Css start
+===============================
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    color: #222;
+    font-family: sans-serif;
+}
+
+.our-btn{
+    text-transform: uppercase;
+    border-radius: 5px;
+    border:none;
+    padding: 15px 50px;
+    background: #2e3192;
+    color: #fff;
+    font-size: 12px;
+}
+.our-btn:focus{
+    outline: 0;
+}
+.our-btn:hover{
+    background: #24266c;
+    transition: .6s;
+}
+
+.section-title{
+    text-align: center;
+}
+.section-title span{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color:#f4572e; 
+}
+.section-title h1{
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: 600;
+    color:#2e3192;
+}
+
+/*
+===============================
+Common Css End
+===============================
+*/
+
+
+
+
+
+/*
+===============================
+Header Section Css start
+===============================
+*/
+.top-menu-section{
+    background: #2e3192;
+    padding: 3px 0px;
+}
+.top-menu-section ul li a{
+    color: #fff;
+    font-size: 12px;
+}
+.top-link{
+    padding:5px 10px;
+}
+.nav-top-link{
+    justify-content: flex-end;
+}
+
+
+
+
+.main-menu-section{
+    padding: 20px 0px;
+}
+.main-menu-area .logo{
+    width: 100px;
+}
+.main-menu-area img{
+    width: 100%;
+}
+.main-menu-area ul li{
+    padding: 0px 10px;
+}
+.main-menu-area ul li a{
+    color: #222;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.main-menu-area ul li a:hover{
+    color:#f4572e;
+    transition: .4s;
+}
+.main-menu-area ul{
+    margin-left: 100px;
+}
+
+.main-menu-area .search{
+    border:1px solid #f4572e;
+    padding: 3px 10px;
+    outline: inherit;
+    width: 100%;
+}
+
+.dropdown:hover .dropdown-menu {
+      display: block;
+  }
+.dropdown:hover .dropdown-item {
+      background: none;
+  }
+
+.fixed .main-menu-section {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #fff;
+    z-index: 999;
+    padding: 0;
+}
+.fixed .logo{
+    width: 70px;
+}
+
+.search-area{
+    position: relative;
+    margin-right: 10px;
+}
+.fa-search{
+    position: absolute;
+    right:0px;
+    top: 0px;
+    background:#2e3192;
+    padding: 8px 10px;
+    color: #fff;
+}
+.bars i{
+    color: #222;
+    outline: inherit;
+}
+
+.main-menu-area .loginbtn{
+    padding: 5px 15px;
+    display: block;
+    background: #2e3192;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+} 
+
+
+/*
+===============================
+Header Section Css End
+===============================
+*/
+
+
+
+
+/*
+===============================
+Slider Section Css Start
+===============================
+*/
+
+.slider-area img{
+    width: 100%;
+}
+.slider-content .dental-practice{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    background: #f4572e;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    outline: inherit;
+}
+.slider-area{
+    position: relative;
+}
+.slider-content{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.slider-content h1{
+    font-size: 60px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+.slider-btn{
+    text-transform: uppercase;
+    border-radius: 5px;
+    border:none;
+    padding: 15px 50px;
+    background: #fff;
+    color: #2e3192;
+    font-size: 12px;
+}
+.slider-btn:focus{
+    outline: 0;
+}
+.slider-btn:hover{
+    background: #f4572e;
+    color: #fff;
+    transition: .6s;
+}
+/*
+===============================
+Slider Section Css End
+===============================
+*/
+
+
+
+
+/*
+===============================
+Working Section Css start
+===============================
+*/
+.working-section{
+    padding: 80px 0px;
+}
+.working-list p::before{
+    content:"+";
+    font-size: 20px;
+    margin-right: 10px;
+    color:#f4572e;
+    font-weight: 600;
+}
+.working-list p{
+    letter-spacing: 1.1px;
+    font-size: 18px;
+}
+.working-list{
+    box-shadow: 0px 0px .5px 0px #222;
+    padding: 20px;
+}
+
+.working-time{
+    text-align: center;
+    padding: 20px;
+    background: #f7f7f7;
+}
+.working-time p{
+    letter-spacing: 1.1px;
+    font-size: 18px;
+    margin-bottom: 38px;
+}
+.working-time h4{
+    background: #2e3192;
+    color: #fff;
+    padding: 22px;
+}
+.working-area{
+    margin-top: 80px;
+}
+.working-info{
+    padding: 10px;
+    margin-top: 15px;
+}
+.working-info h5{
+    color:#2e3192;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/*
+===============================
+Working Section Css End
+===============================
+*/
+
+
+
+
+
+/*
+===============================
+People Section Css start
+===============================
+*/
+.people-section{
+    padding: 80px 0px;
+}
+.people-img{
+    padding: 10px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: auto;
+}
+.people-area{
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+.people-img h3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:#2e3192;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+.people-content{
+    margin-top: 25px;
+}
+.people-content h4{
+    color:#2e3192;
+    font-weight: 600;
+}
+.people-content h6{
+    color:#f4572e;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+/*
+===============================
+People Section Css End
+===============================
+*/
+
+
+
+
+
+
+/*
+===============================
+Plan section Css start
+===============================
+*/
+.plan-section{
+    padding: 80px 0px;
+    background:#2e3192; 
+}
+.plan-area{
+    text-align: center;
+    color: #fff;
+    
+}
+.plan-area h1 span{
+    color:#f4572e; 
+}
+
+/*
+===============================
+Plan section Css End
+===============================
+*/
+
+
+
+
+
+/*
+===============================
+Tabs Section Css start
+===============================
+*/
+.tab-section{
+    padding: 80px 0px;
+}
+
+ul.our-nav-item{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
+}
+ul.our-nav-item li{
+    flex-grow: 1;
+}
+ul.our-nav-item li a{
+    color:#2e3192;
+    text-decoration: none;
+    padding: 30px 0px;
+    display: block;
+}
+ul.our-nav-item li a.active{
+    background: #f7f7f7;
+    border-bottom: 3px solid #2e3192;
+    font-weight: 600;
+}
+.tab-list{
+    border-top: 1px solid #9999;
+    border-bottom: 1px solid #9999;
+}
+.our-tab-contant{
+    background: #f7f7f7;
+    padding: 70px 0px;
+}
+.our-tab-contant h2{
+    color:#2e3192;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+/*
+===============================
+Tabs Section Css End
+===============================
+*/
+
+
+
+
+
+/*
+===============================
+Apointment Section Css start
+===============================
+*/
+.appointment-section{
+    padding: 80px 0px;
+    background: #eef7ff;
+}
+.appointment-form h2{
+    color:#2e3192;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.appointment-form input{
+    width: 48%;
+    padding: 5px 10px;
+    margin-top: 15px;
+    outline: inherit;
+}
+.appointment-form textarea{
+    width: 100%;
+     padding: 5px 10px;
+    margin-top: 15px;
+    outline: inherit;
+    margin-bottom: 20px;
+}
+.ml{
+    margin-left: 3%;
+}
+
+/*
+===============================
+Apointment Section Css End
+===============================
+*/
+
+
+
+/*
+===============================
+News Section Css start
+===============================
+*/
+.news-section{
+    padding: 80px 0px;
+}
+.news-content{
+    margin-top: 20px;
+}
+
+.news-content span{
+    color: #f4572e;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1.1px;
+}
+.news-content h4{
+    color:#2e3192;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.blog-btn{
+    border: none;
+    background:#f4572e;
+    color: #fff;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.blog-btn:focus{
+    outline: 0;
+}
+.news-content-area{
+    margin-top: 25px;
+}
+
+/*
+===============================
+News Section Css End
+===============================
+*/
+.logo-section{
+    padding: 80px 0px;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+
+
+/*
+===============================
+Main Footer Section Css start
+===============================
+*/
+.main-footer-area{
+    padding: 120px 0px;
+    background: #25277e;
+    color: #fff;
+}
+.footer-icon a i{
+    font-size: 22px;
+    color: #fff;
+}
+.footer-icon a i:hover{
+    color:#f4572e;
+}
+.footer-bottom{
+    text-align: center;
+    padding: 20px 0px;
+    background: #1c1e73;
+    color: #fff;
+}
+
+/*
+===============================
+Main Footer Section Css End
+===============================
+*/
+
+/*===============================
+    Arrow Section 
+ ===============================*/
+.top {
+    width: 35px;
+    height: 35px;
+    background: #25277e;
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    line-height: 1.8;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.top:hover {
+    background: #1c1e73;
+}
+
+.top a {
+    color: #fff;
+}
+
+
+/*
+===============================
+===============================
+Home Page CSS End Here
+===============================
+===============================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+===============================
+===============================
+About Us Page CSS Start Here
+===============================
+===============================
+*/
+/*
+===============================
+Banner Css start
+===============================
+*/
+.banner-section{
+    background-image: url(../img/about-us-bg-img.jpg);
+    padding: 200px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-area h1{
+    font-size: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color:#25277e; 
+}
+
+
+/*
+===============================
+About-workking Css start
+===============================
+*/
+.about-workking-area{
+    margin-bottom: 80px;
+}
+
+
+
+/*
+===============================
+About Work section Css Start
+===============================
+*/
+.about-work-section{
+    padding-bottom: 50px;
+}
+.about-work-content h2{
+    font-weight: 600;
+    color:#25277e; 
+}
+.about-work-content  li{
+    list-style: none;
+}
+
+.about-work-content  li::before{
+    content:"\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 20px;
+    color: #f4572e;
+}
+
+
+
+/*
+===============================
+Testimonials Css start
+===============================
+*/
+.testimonial-section{
+    padding: 60px 0px;
+}
+.testimonial-content{
+    text-align: center;
+}
+.testimonial-content span{
+    text-transform: uppercase;
+    color: #f4572e;
+}
+.testimonial-content h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: #25277e;
+}
+
+/*
+===============================
+===============================
+About Us Page CSS End Here
+===============================
+===============================
+*/
+
+
+
+
+
+
+
+
+/*
+===============================
+===============================
+Services Us Page CSS Start Here
+===============================
+===============================
+*/
+/*
+===============================
+Services Css Start
+===============================
+*/
+.services-banner-section{
+    background-image: url(../img/services.jpg);
+    padding: 200px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services-us-section{
+    padding: 50px 0px;
+}
+.services-us-area{
+    padding: 50px 0px;
+}
+.services-us-area h2{
+    font-weight: 600;
+    color:#25277e; 
+}
+.services-us-area  li{
+    list-style: none;
+}
+
+.services-us-area  li::before{
+    content:"\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 20px;
+    color: #f4572e;
+}
+.services-content{
+    margin-top: 60px;
+}
+
+
+/*
+===============================
+===============================
+Services Us Page CSS End Here
+===============================
+===============================
+*/
+
+
+
+
+
+/*
+===============================
+===============================
+Pricing-Plans Page CSS Start Here
+===============================
+===============================
+*/
+
+/*
+===============================
+Pricing Css start
+===============================
+*/
+.pricing-section{
+    background-image: url(../img/pricing-bg-img1.jpg);
+    padding: 120px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pricing-content{
+    text-align: center;
+    padding: 70px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 0px #9999;
+    margin-top: 60px;
+}
+.pricing-content span{
+    text-transform: uppercase;
+    margin: 25px 0px;
+    display: block;
+    color: #f4572e;
+}
+.pricing-content h1{
+   color: #25277e; 
+    font-size: 55px;
+    font-weight: 600;
+}
+.pricing-content h5{
+   color: #25277e; 
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.pricing-content a{
+    color:#25277e;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/*
+===============================
+===============================
+Pricing-Plans Page CSS End Here
+===============================
+===============================
+*/
+
+
+
+
+
+/*
+===============================
+===============================
+Contact Us Page CSS Start Here
+===============================
+===============================
+*/
+
+/*
+===============================
+Banner Css Start
+===============================
+*/
+.contact-banner-section{
+    background-image: url(../img/contact.jpg);
+    padding: 200px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-us-section{
+    padding: 80px 0px;
+}
+
+/*
+===============================
+===============================
+Contact Us Page CSS End Here
+===============================
+===============================
+*/
+
+
+
+
+/*
+=======================================
+=======================================
+        Login Page Css Start Hera
+=======================================
+=======================================
+*/
+
+/*===================
+   Login section
+===================*/
+.login-section {
+    padding: 80px 0px;
+    background: #fff;
+}
+
+.login-area {
+    width: 400px;
+    margin: auto;
+    background: #25277e;
+    padding: 80px 20px;
+    box-shadow: 0px 0px 5px 0px #999; 
+    border-radius: 5px;
+}
+.login-area h4{
+    text-align: center;
+    font-weight: 600; 
+    color: #fff;
+}
+
+.login-top {
+    text-align: center;
+    color: #fff;
+}
+
+.login-area input {
+    width: 100%;
+    padding: 8px 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.login-area input:focus {
+    outline: 0;
+}
+
+.login-area .submit {
+    border: none;
+    background: #fff; 
+    color: #25277e;
+    font-weight: bold;
+}
+
+.login-area a {
+    color: #fff; 
+}
+.login-area span {
+    color: #fff;
+}
+
+.user {
+    position: relative;
+}
+
+.fa-user {
+    position: absolute;
+    right: 15px;
+    top: 27px;
+    font-size: 18px;
+    color: #25277e;
+
+}
+
+.user-pass {
+    position: relative;
+}
+
+.fa-eye {
+    position: absolute;
+    right: 15px;
+    top: 27px;
+    font-size: 18px;
+    color: #25277e;
+
+}
+
+.user-pass {
+    position: relative;
+}
+
+.fa-eye-slash {
+    position: absolute;
+    right: 15px;
+    top: 27px;
+    font-size: 18px;
+    display: none;
+
+}
+
+
+/*
+=======================================
+=======================================
+        Login Page Css End Hera
+=======================================
+=======================================
+*/
+
+
+
+
+
+/*
+=======================================
+=======================================
+ Product Details Page Css End Hera
+=======================================
+=======================================
+*/
+/*===================
+pro-details-section
+===================*/
+.pro-details-section{
+    padding: 80px 0px;
+}
+.pro-details-img{
+    box-shadow: 0px 0px .8px 0px #25277e;
+}
+.sub-img{
+     box-shadow: 0px 0px .8px 0px #25277e;
+}
+.pro-details-info h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: #25277e;
+}
+.pro-details .pro{
+    padding: 5px 10px;
+}
+.pro-details .pro-details-add{
+    padding: 5px 30px;
+    background:#25277e;
+    color: #fff;
+}
+.related-product-section{
+    padding: 80px 0px;
+}
+.our-product{
+    text-align: center;
+    box-shadow: 0px 0px .5px 0px #25277e;
+    padding: 10px;
+    margin-top: 15px;
+    position: relative;
+    
+}
+
+.our-product a{
+    font-size: 18px;
+    font-weight: 600;
+    color:#25277e;
+    text-decoration: none;
+}
+.our-product-btn{
+    background: #25277e;
+    color: #fff;
+    padding: 8px 40px;
+    border-radius: 3px;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+
+
+.our-product:hover .our-product-btn{
+    display: block;
+    transition: .5s;
+}
+
+/*
+=======================================
+=======================================
+ Product Details Page Css End Hera
+=======================================
+=======================================
+*/
+
+
+/*
+=======================================
+=======================================
+ Shop Page Css Start Hera
+=======================================
+=======================================
+*/
+.shop-section{
+    padding: 80px 0px;
+}
+.product-site-bar{
+    padding: 20px;
+}
+.product-site-bar h2{
+    text-transform: uppercase;
+    color:#25277e;
+    font-size: 18px;
+    font-weight: 600;
+}
+.product-site-bar li {
+    list-style: none;
+}
+.product-site-bar li a{
+    color: #222;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1.1px;
+}
+.tag-btn{
+    padding: 3px 25px;
+    background:#f4572e;
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+/*
+=======================================
+=======================================
+ Shop Page Css End Hera
+=======================================
+=======================================
+*/
+
+
+/*===============================
+    Cart Section 
+ ===============================*/
+.cart-area {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    top: 40%;
+    right: 0;
+    z-index: 999;
+}
+
+.cart-area .cart {
+    font-size: 22px;
+    background: #25277e;
+    padding: 2px;
+    color: #fff;
+
+}
+
+.cart-area span {
+    background: #f6f6f6;
+}
+
+.cart-area .item {
+    margin: 0;
+    background: #f4572e;
+    color: #fff;
+}
+
+.cart-area .price {
+    margin: 0;
+    background: #f4572e;
+    color: #fff;
+}
+
+
+.add-cart-section {
+    width: 300px;
+    height: 100vh;
+    background: #fff;
+    position: fixed;
+    top: 62px;
+    right: 0;
+    z-index: 999;
+    display: none;
+}
+
+.cart-header {
+    background: #25277e;
+    padding: 10px;
+    color: #fff;
+}
+
+.cart-header .cart-icon {
+    margin-left: 200px;
+    font-size: 22px;
+}
+
+.cart-header .cart-item {
+    font-size: 16px;
+}
+
+.cart-body {
+    text-align: center;
+    margin-top: 20%;
+    padding: 30px;
+}
+
+.cart-body img {
+    width: 100%;
+}
+
+.cart-body p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.cart-bottom {
+    background: #25277e;
+    padding: 20px 0px;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+}
+
+.cart-bottom .cart-btn {
+    padding: 8px 20px;
+    border: none;
+    background: #f4572e;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.cart-bottom .total-price {
+    margin-left: 100px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
